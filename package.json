@@ -1,0 +1,19 @@
+{
+  "name": "kindo-promo-30s",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render KindoPromo out/kindo-promo-30s.mp4 --codec=h264 --crf=18"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.282"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3",
+    "@types/react": "18.3.17",
+    "@types/react-dom": "18.3.5"
+  }
+}
